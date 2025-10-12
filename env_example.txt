@@ -1,0 +1,21 @@
+# Environment Variables Example
+# Copy this file to .env and adjust values as needed
+
+# Application
+APP_ENV=development
+DEBUG=True
+
+# API
+API_HOST=0.0.0.0
+API_PORT=8000
+
+# AWS Configuration (for deployment)
+# AWS_ACCESS_KEY_ID=your_access_key
+# AWS_SECRET_ACCESS_KEY=your_secret_key
+# AWS_REGION=us-east-1
+# S3_BUCKET_NAME=your-bucket-name
+
+# Model
+MODEL_PATH=models/demand_model.pkl
+DATA_PATH=data/training_data.csv
+
